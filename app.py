@@ -61,11 +61,6 @@ def entry():
 def hello():
     return 'Hello World!'
 
-@app.route('/hi')
-def hi():
-    in_text = request.args.get('text_input')
-    result = predict_sentiment(in_text)
-    print(predict_sentiment)
 
 
 
